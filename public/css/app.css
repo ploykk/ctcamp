@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    margin-top: 50px;
+
+    background-color: #EFEFEF;
+}
+
+.menu{
+    margin: 25px;
+
+    color: dimgrey;
+    text-decoration: none;
+    font-family: 'Sriracha', cursive;
+}
+
+.navigation-bar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    
+    height: 50px;
+
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    background: white;
+}
+
+.text{
+    padding: 25px;
+}
+
+.text>.title{
+    font-family: 'Sriracha', cursive;
+    font-size: 36px;
+}
+
+.image{
+    width: 500px;
+}
+
+.objectives{
+    padding: 0;
+    list-style-type: none;
+
+    text-align: center;
+}
+
+.item{
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+
+    font-family: 'Sriracha', cursive;
+}
+
+.title{
+    font-size: 30px; 
+    text-align: center;
+}
+
+.white-section{
+    padding: 50px;
+
+    background-color: white;
+}
+
+.lab-list{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+
+    padding: 0;
+}
+
+.lab{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    flex-basis: 300px;
+    width: 300px;
+    flex-grow: 0;
+
+    text-align: center;
+}
+
+.lab>.image{
+    margin-bottom: 25px;
+
+    width: auto;
+    height: 250px;
+}
+
+.lab>.link{
+    color: dimgray;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.time-table{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #DDD;
+    padding: 25px;
+
+    width: 100%;
+}
+
+.time-table td{
+    padding: 25px;
+    border: 1px solid #DDD;
+}
