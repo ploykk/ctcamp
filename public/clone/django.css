@@ -1,0 +1,286 @@
+.top {
+    background-color: #0C4B33;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 56px;
+    padding-right: 56px;
+    align-items: center;
+}
+
+.top > .logo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.top > .logo >.logotext {
+    color: #44B78B;
+    font-family: 'Roboto', Corbel, Avenir, 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.top > .menu {
+    color: #ffffff;
+    font-family: 'Roboto', Corbel, Avenir, 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.top > .menu > .link {
+    margin-right: 20px;
+}
+
+.describe {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.describe > .text {
+    margin-top: 36px;
+    margin-bottom: 19px;
+    font-size: 36px;
+    font-weight: 300;
+    font-family: Roboto;
+    color: #0C3C26;
+}
+
+.describe > .cta {
+    border-width: 0;
+    border-radius: 5px;
+    padding-top: 18px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 19.8px;
+    background-color: #44B78B;
+    font-family: 'Roboto', Corbel, Avenir, 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 36px;
+    margin-bottom: 40px;
+}
+
+.border {
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-color: lightgray;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: white;
+    padding-top: 40px;
+    padding-bottom: 34px;
+}
+
+.container {
+    padding-left: 56.203px;
+    padding-right: 56.203;
+    display: flex;
+    flex-direction: row;
+}
+
+.container > .main {
+    font-family: 'Roboto', Corbel, Avenir, 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+
+.container > .main > .head {
+    font-size: 32px;
+    color: #0C3C26;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.container > .main > .head > .text {
+    font-size: 18px;
+    font-family: Palatino Linotype;
+    color: black;
+}
+
+.container > .main > .head > .list {
+    margin-top: 70px;
+    color: #0C3C26;
+}
+
+.container > .main > .head > .list > .title {
+    font-size: 18px;
+}
+
+.container > .main > .head > .list > .content {
+    font-size: 18px;
+    font-family: Palatino Linotype;
+    color: black;
+}
+
+.container > .main > .head > .btn {
+    text-align: center;
+}
+
+.container > .main > .head > .btn > .button {
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #CFE3DC;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 130px;
+    padding-left: 130px;
+    margin-top: 80px;
+    text-decoration: none;
+    color: #859D94;
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', Corbel, Avenir, 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+
+.container > .main > .head > .border {
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-color: lightgray;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: white;
+    padding-bottom: 20px;
+    width: 800px;
+}
+
+.container > .main > .headsecond {
+    margin-top: 40px;
+    margin-bottom: 36px;
+    color: #0C3C26;
+    font-size: 32px;
+    font-family: 'Roboto', Corbel, Avenir, 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+
+.container > .main > .detail {
+    margin-bottom: 28px;
+    line-height: 20px;
+    font-size: 18px;
+    font-family: Palatino Linotype;
+    color: black;
+}
+
+.container > .main > .layout-2col {
+    font-family: 'Roboto', Corbel, Avenir, 'Lucida Grande', 'Lucida Sans', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.container > .main > .layout-2col > .col-last {
+    margin-left: 55px;
+}
+
+.col-head {
+    color: #20AA76;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.col-content {
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.input {
+    width: 350px;
+    height: 45px;
+    border-width: 1px;
+    border-color: #CFE3DC;
+    border-radius: 3px;
+    display: block;
+}
+
+.col-detail {
+    font-size: 14px;
+}
+
+.col-link {
+    color: #20AA76;
+}
+
+.information {
+    font-family: Palatino Linotype;
+    font-size: 18px;
+    margin-top: 18px;
+    line-height: 30px;
+}
+
+.information > .link {
+    color: #0C3C26;
+}
+
+.complementary {
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family: 'Roboto', Corbel, Avenir, 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+
+.complementary > .button {
+    border-radius: 5px;
+    border-width: 0px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Roboto', Corbel, Avenir, 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    width: 380px;
+    background-color: #51be95;
+}
+
+.complementary > .button > .color {
+    color: #C9F0DD;
+}
+
+.link-readmore {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #20AA76;
+    font-family: 'Roboto', Corbel, Avenir, 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+    border-width: 0px;
+    border-color: none;
+    padding-left: 90px;
+}
+
+.complementary > .head {
+    font-family: 'Roboto', Corbel, Avenir, 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.complementary > .border {
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-color: lightgray;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: white;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.heart {
+    display: flex;
+    flex-direction: flow;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.heart > .content {
+    margin-left: 30px;
+    font-size: 14px;
+    color: #25c488;
+    line-height: 20px;
+}
